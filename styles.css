@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://i.pinimg.com/736x/37/e2/d4/37e2d4578814d885d0033c49d7570c7d.jpg");
+    background-size: cover;
+}
+.baka{
+    width: 30%;
+    height: 55vh;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:  black;
+    padding: 5px;
+    border: 3px solid gray;
+    filter: blur(0.2px);
+}
+input{
+    width: 70%;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: aquamarine;
+    border: none;
+    padding: 10px;
+}
+textarea{
+    width: 75%;
+    height: 10vh;
+    border-radius: 10px;
+    padding: 5px;
+}
